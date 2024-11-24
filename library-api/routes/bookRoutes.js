@@ -56,5 +56,5 @@ router.delete('/:id', authMiddleware, async (req, res) => {
     res.status(500).json({ message: err.message });
   }
 });
-
+//Metodos do CRUD para a biblioteca
 module.exports = router;
