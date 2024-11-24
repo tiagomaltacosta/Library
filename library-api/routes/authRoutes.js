@@ -109,5 +109,6 @@ router.delete('/users/:id', async (req, res) => {
   }
 });
 
+//Classe de metódos do usuário
 
 module.exports = router;
