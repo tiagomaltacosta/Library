@@ -4,7 +4,7 @@ const dotenv = require('dotenv');
 const bodyParser = require('body-parser');
 const bookRoutes = require('./routes/bookRoutes');
 const authRoutes = require('./routes/authRoutes');
-
+//Acima faz a conexão com os metodos de usuário e livro
 dotenv.config();
 const app = express();
 app.use(bodyParser.json());
