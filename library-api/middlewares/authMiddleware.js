@@ -14,3 +14,5 @@ const authMiddleware = (req, res, next) => {
 };
 
 module.exports = authMiddleware;
+
+//Valida aqui o acesso do usuário
